@@ -1,0 +1,602 @@
+[
+  {
+    "description": "Agile",
+    "rank": "1",
+    "median_salary": "£67,086",
+    "live_jobs": "5,973"
+  },
+  {
+    "description": "Social Skills",
+    "rank": "2",
+    "median_salary": "£57,500",
+    "live_jobs": "6,981"
+  },
+  {
+    "description": "Finance",
+    "rank": "3",
+    "median_salary": "£70,000",
+    "live_jobs": "5,053"
+  },
+  {
+    "description": "Azure",
+    "rank": "4",
+    "median_salary": "£65,000",
+    "live_jobs": "5,214"
+  },
+  {
+    "description": "Microsoft",
+    "rank": "5",
+    "median_salary": "£52,500",
+    "live_jobs": "5,316"
+  },
+  {
+    "description": "SQL",
+    "rank": "6",
+    "median_salary": "£60,000",
+    "live_jobs": "3,345"
+  },
+  {
+    "description": "AWS",
+    "rank": "7",
+    "median_salary": "£75,000",
+    "live_jobs": "3,601"
+  },
+  {
+    "description": "Degree",
+    "rank": "8",
+    "median_salary": "£55,000",
+    "live_jobs": "4,447"
+  },
+  {
+    "description": "Developer",
+    "rank": "9",
+    "median_salary": "£62,500",
+    "live_jobs": "5,339"
+  },
+  {
+    "description": "Senior",
+    "rank": "10",
+    "median_salary": "£70,000",
+    "live_jobs": "3,639"
+  },
+  {
+    "description": "Python",
+    "rank": "11",
+    "median_salary": "£70,000",
+    "live_jobs": "2,770"
+  },
+  {
+    "description": "DevOps",
+    "rank": "12",
+    "median_salary": "£70,000",
+    "live_jobs": "2,694"
+  },
+  {
+    "description": "JavaScript",
+    "rank": "13",
+    "median_salary": "£65,000",
+    "live_jobs": "3,286"
+  },
+  {
+    "description": "Problem-Solving",
+    "rank": "14",
+    "median_salary": "£56,456",
+    "live_jobs": "3,119"
+  },
+  {
+    "description": "Analyst",
+    "rank": "15",
+    "median_salary": "£47,500",
+    "live_jobs": "1,939"
+  },
+  {
+    "description": "Software Engineering",
+    "rank": "16",
+    "median_salary": "£70,000",
+    "live_jobs": "2,770"
+  },
+  {
+    "description": "Java",
+    "rank": "17",
+    "median_salary": "£72,500",
+    "live_jobs": "2,301"
+  },
+  {
+    "description": "Mentoring",
+    "rank": "18",
+    "median_salary": "£68,823",
+    "live_jobs": "2,102"
+  },
+  {
+    "description": "C#",
+    "rank": "19",
+    "median_salary": "£62,500",
+    "live_jobs": "3,212"
+  },
+  {
+    "description": "CI/CD",
+    "rank": "20",
+    "median_salary": "£75,000",
+    "live_jobs": "1,857"
+  },
+  {
+    "description": "Windows",
+    "rank": "21",
+    "median_salary": "£45,000",
+    "live_jobs": "2,786"
+  },
+  {
+    "description": "Analytical Skills",
+    "rank": "22",
+    "median_salary": "£55,000",
+    "live_jobs": "1,887"
+  },
+  {
+    "description": "Roadmaps",
+    "rank": "23",
+    "median_salary": "£75,000",
+    "live_jobs": "1,672"
+  },
+  {
+    "description": "Analytics",
+    "rank": "24",
+    "median_salary": "£67,500",
+    "live_jobs": "1,617"
+  },
+  {
+    "description": ".NET",
+    "rank": "25",
+    "median_salary": "£60,000",
+    "live_jobs": "2,606"
+  },
+  {
+    "description": "Scrum",
+    "rank": "26",
+    "median_salary": "£65,000",
+    "live_jobs": "1,483"
+  },
+  {
+    "description": "Project Management",
+    "rank": "27",
+    "median_salary": "£59,525",
+    "live_jobs": "1,581"
+  },
+  {
+    "description": "Lead",
+    "rank": "28",
+    "median_salary": "£75,000",
+    "live_jobs": "1,881"
+  },
+  {
+    "description": "QA",
+    "rank": "29",
+    "median_salary": "£60,000",
+    "live_jobs": "1,122"
+  },
+  {
+    "description": "Inclusion and Diversity",
+    "rank": "30",
+    "median_salary": "£62,500",
+    "live_jobs": "966"
+  },
+  {
+    "description": "HTML",
+    "rank": "31",
+    "median_salary": "£57,500",
+    "live_jobs": "1,758"
+  },
+  {
+    "description": "React",
+    "rank": "32",
+    "median_salary": "£70,000",
+    "live_jobs": "1,798"
+  },
+  {
+    "description": "Kubernetes",
+    "rank": "33",
+    "median_salary": "£77,500",
+    "live_jobs": "1,175"
+  },
+  {
+    "description": "Docker",
+    "rank": "34",
+    "median_salary": "£72,500",
+    "live_jobs": "1,327"
+  },
+  {
+    "description": "Test Automation",
+    "rank": "35",
+    "median_salary": "£60,000",
+    "live_jobs": "1,232"
+  },
+  {
+    "description": "CSS",
+    "rank": "35",
+    "median_salary": "£57,500",
+    "live_jobs": "1,514"
+  },
+  {
+    "description": "GCP",
+    "rank": "36",
+    "median_salary": "£80,000",
+    "live_jobs": "880"
+  },
+  {
+    "description": "Banking",
+    "rank": "37",
+    "median_salary": "£75,000",
+    "live_jobs": "770"
+  },
+  {
+    "description": "Linux",
+    "rank": "38",
+    "median_salary": "£62,500",
+    "live_jobs": "1,931"
+  },
+  {
+    "description": "Security Cleared",
+    "rank": "39",
+    "median_salary": "£57,500",
+    "live_jobs": "2,328"
+  },
+  {
+    "description": "SQL Server",
+    "rank": "40",
+    "median_salary": "£56,000",
+    "live_jobs": "2,122"
+  },
+  {
+    "description": "Retail",
+    "rank": "41",
+    "median_salary": "£61,180",
+    "live_jobs": "2,496"
+  },
+  {
+    "description": "Microsoft 365",
+    "rank": "42",
+    "median_salary": "£42,500",
+    "live_jobs": "1,932"
+  },
+  {
+    "description": "Microservices",
+    "rank": "43",
+    "median_salary": "£77,500",
+    "live_jobs": "1,755"
+  },
+  {
+    "description": "Stakeholder Management",
+    "rank": "44",
+    "median_salary": "£65,000",
+    "live_jobs": "1,318"
+  },
+  {
+    "description": "Architect",
+    "rank": "45",
+    "median_salary": "£85,000",
+    "live_jobs": "1,542"
+  },
+  {
+    "description": "Marketing",
+    "rank": "46",
+    "median_salary": "£57,500",
+    "live_jobs": "1,757"
+  },
+  {
+    "description": "SDLC",
+    "rank": "47",
+    "median_salary": "£65,000",
+    "live_jobs": "880"
+  },
+  {
+    "description": "BI",
+    "rank": "48",
+    "median_salary": "£60,000",
+    "live_jobs": "1,398"
+  },
+  {
+    "description": "CI",
+    "rank": "49",
+    "median_salary": "£62,000",
+    "live_jobs": "1,215"
+  },
+  {
+    "description": "Customer Service",
+    "rank": "50",
+    "median_salary": "£39,000",
+    "live_jobs": "2,257"
+  },
+  {
+    "description": "Active Directory",
+    "rank": "51",
+    "median_salary": "£41,500",
+    "live_jobs": "1,683"
+  },
+  {
+    "description": "ITIL",
+    "rank": "52",
+    "median_salary": "£50,000",
+    "live_jobs": "1,223"
+  },
+  {
+    "description": "Cybersecurity",
+    "rank": "53",
+    "median_salary": "£65,000",
+    "live_jobs": "1,229"
+  },
+  {
+    "description": "Git",
+    "rank": "54",
+    "median_salary": "£65,000",
+    "live_jobs": "1,319"
+  },
+  {
+    "description": "Software Engineer",
+    "rank": "55",
+    "median_salary": "£67,500",
+    "live_jobs": "1,348"
+  },
+  {
+    "description": "Computer Science",
+    "rank": "56",
+    "median_salary": "£62,500",
+    "live_jobs": "1,324"
+  },
+  {
+    "description": "Product Ownership",
+    "rank": "57",
+    "median_salary": "£65,000",
+    "live_jobs": "723"
+  },
+  {
+    "description": "Power Platform",
+    "rank": "58",
+    "median_salary": "£57,500",
+    "live_jobs": "1,316"
+  },
+  {
+    "description": "Terraform",
+    "rank": "59",
+    "median_salary": "£80,000",
+    "live_jobs": "989"
+  },
+  {
+    "description": "Coaching",
+    "rank": "60",
+    "median_salary": "£67,500",
+    "live_jobs": "1,318"
+  },
+  {
+    "description": "User Experience",
+    "rank": "61",
+    "median_salary": "£62,500",
+    "live_jobs": "995"
+  },
+  {
+    "description": "Decision-Making",
+    "rank": "62",
+    "median_salary": "£62,000",
+    "live_jobs": "880"
+  },
+  {
+    "description": "SaaS",
+    "rank": "63",
+    "median_salary": "£70,000",
+    "live_jobs": "947"
+  },
+  {
+    "description": "Legal",
+    "rank": "64",
+    "median_salary": "£57,500",
+    "live_jobs": "1,001"
+  },
+  {
+    "description": "Law",
+    "rank": "65",
+    "median_salary": "£55,000",
+    "live_jobs": "606"
+  },
+  {
+    "description": "Project Delivery",
+    "rank": "66",
+    "median_salary": "£62,500",
+    "live_jobs": "908"
+  },
+  {
+    "description": "Full Stack Development",
+    "rank": "66",
+    "median_salary": "£65,000",
+    "live_jobs": "1,592"
+  },
+  {
+    "description": "JIRA",
+    "rank": "67",
+    "median_salary": "£60,000",
+    "live_jobs": "824"
+  },
+  {
+    "description": "Software Testing",
+    "rank": "68",
+    "median_salary": "£55,000",
+    "live_jobs": "620"
+  },
+  {
+    "description": "AngularJS",
+    "rank": "69",
+    "median_salary": "£65,000",
+    "live_jobs": "1,237"
+  },
+  {
+    "description": "Data Science",
+    "rank": "70",
+    "median_salary": "£70,000",
+    "live_jobs": "485"
+  },
+  {
+    "description": "TypeScript",
+    "rank": "71",
+    "median_salary": "£70,000",
+    "live_jobs": "1,084"
+  },
+  {
+    "description": "TDD",
+    "rank": "72",
+    "median_salary": "£70,000",
+    "live_jobs": "1000"
+  },
+  {
+    "description": "Customer Experience",
+    "rank": "72",
+    "median_salary": "£62,500",
+    "live_jobs": "616"
+  },
+  {
+    "description": "SC Cleared",
+    "rank": "73",
+    "median_salary": "£60,000",
+    "live_jobs": "1,561"
+  },
+  {
+    "description": "Jenkins",
+    "rank": "74",
+    "median_salary": "£70,000",
+    "live_jobs": "920"
+  },
+  {
+    "description": "Games",
+    "rank": "75",
+    "median_salary": "£62,500",
+    "live_jobs": "625"
+  },
+  {
+    "description": "Power BI",
+    "rank": "76",
+    "median_salary": "£56,000",
+    "live_jobs": "957"
+  },
+  {
+    "description": "Senior Developer",
+    "rank": "77",
+    "median_salary": "£70,000",
+    "live_jobs": "1,009"
+  },
+  {
+    "description": "Node.js",
+    "rank": "78",
+    "median_salary": "£70,000",
+    "live_jobs": "1,060"
+  },
+  {
+    "description": "Oracle",
+    "rank": "79",
+    "median_salary": "£62,000",
+    "live_jobs": "740"
+  },
+  {
+    "description": "Fintech",
+    "rank": "80",
+    "median_salary": "£75,000",
+    "live_jobs": "745"
+  },
+  {
+    "description": "Migration",
+    "rank": "81",
+    "median_salary": "£67,500",
+    "live_jobs": "808"
+  },
+  {
+    "description": "Information Security",
+    "rank": "82",
+    "median_salary": "£65,000",
+    "live_jobs": "655"
+  },
+  {
+    "description": "Microsoft Office",
+    "rank": "83",
+    "median_salary": "£40,000",
+    "live_jobs": "1,061"
+  },
+  {
+    "description": "PowerShell",
+    "rank": "84",
+    "median_salary": "£60,000",
+    "live_jobs": "826"
+  },
+  {
+    "description": "Consultant",
+    "rank": "85",
+    "median_salary": "£65,000",
+    "live_jobs": "1,224"
+  },
+  {
+    "description": "Management Information System",
+    "rank": "86",
+    "median_salary": "£55,000",
+    "live_jobs": "720"
+  },
+  {
+    "description": "Microsoft Excel",
+    "rank": "87",
+    "median_salary": "£47,500",
+    "live_jobs": "838"
+  },
+  {
+    "description": "Azure DevOps",
+    "rank": "88",
+    "median_salary": "£66,786",
+    "live_jobs": "824"
+  },
+  {
+    "description": "Project Manager",
+    "rank": "89",
+    "median_salary": "£60,000",
+    "live_jobs": "492"
+  },
+  {
+    "description": "Machine Learning",
+    "rank": "90",
+    "median_salary": "£70,000",
+    "live_jobs": "599"
+  },
+  {
+    "description": "Mathematics",
+    "rank": "91",
+    "median_salary": "£60,000",
+    "live_jobs": "764"
+  },
+  {
+    "description": "VMware",
+    "rank": "92",
+    "median_salary": "£50,000",
+    "live_jobs": "1,034"
+  },
+  {
+    "description": "Public Sector",
+    "rank": "93",
+    "median_salary": "£57,384",
+    "live_jobs": "1,406"
+  },
+  {
+    "description": "REST",
+    "rank": "94",
+    "median_salary": "£70,000",
+    "live_jobs": "786"
+  },
+  {
+    "description": "Firewall",
+    "rank": "95",
+    "median_salary": "£52,500",
+    "live_jobs": "954"
+  },
+  {
+    "description": "Collaborative Working",
+    "rank": "96",
+    "median_salary": "£62,500",
+    "live_jobs": "866"
+  },
+  {
+    "description": "Windows Server",
+    "rank": "97",
+    "median_salary": "£45,000",
+    "live_jobs": "1,087"
+  }
+]
