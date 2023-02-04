@@ -5,7 +5,7 @@ export const CustomXAxisTick = (props: any) => {
 
     return (
         <g transform={`translate(${x},${y})`}>
-            <text x={11} y={0} dy={18} textAnchor="end" fill="lightgray" transform="rotate(0)" style={{ fontSize }}>{payload.value}</text>
+            <text x={11} y={-10} dy={18} textAnchor="end" fill="lightgray" transform="rotate(0)" style={{ fontSize }}>{payload.value}</text>
         </g>
     );
 };

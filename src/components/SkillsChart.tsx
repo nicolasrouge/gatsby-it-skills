@@ -92,7 +92,7 @@ function SkillsChart() {
           unit="£"
           stroke="lightgray"
           strokeWidth={0.3}
-          domain={[50000, 87000]}
+          domain={[52500, 86000]}
           // fontSize={12} 
           tick={<CustomYAxisTick fontSize="11px" />}
         />
