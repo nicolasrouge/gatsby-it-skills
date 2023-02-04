@@ -10,7 +10,7 @@ import excludedSkills from '../data/excludedSkills.json';
 import skillsWithDescriptionOnTop from '../data/skillsWithDescriptionOnTop.json';
 import skillsWithDescriptionOnTop02 from '../data/skillsWithDescriptionOnTop02.json';
 import { addColorToSkill, returnColor } from './colorFunctions';
-import { CustomXAxisTick } from './customChartComponents';
+import { CustomXAxisTick, CustomYAxisTick } from './customChartComponents';
 
 function SkillsChart() {
   const [data, setData] = useState(null as any);
@@ -19,15 +19,21 @@ function SkillsChart() {
   useEffect(
     () => {
       console.log("selectedDate: ", selectedDate);
-      if(selectedDate === "Jan23") loadData(skillsJsonFile, skillsWithDescriptionOnTop);
-      if(selectedDate === "Feb23") loadData(skills0223, skillsWithDescriptionOnTop02);
-      if(selectedDate === "clear") setData([]);
+      if (selectedDate === "Jan23") loadData(skillsJsonFile, skillsWithDescriptionOnTop);
+      if (selectedDate === "Feb23") loadData(skills0223, skillsWithDescriptionOnTop02);
+      if (selectedDate === "clear") setData([]);
     }, [selectedDate]);
 
-    useEffect(
-      () => {
-        console.log("data", data);
-      }, [selectedDate]);
+  useEffect(
+    () => {
+      console.log("data", data);
+    }, [selectedDate]);
+
+    const rename = (name: string) => {
+      if(name === "Continuous Improvement") return "CI";
+      if(name === "Business Intelligence") return "BI";
+      else return name;
+    }
 
   const loadData = (skillsFromJson: any, descriptionOnTop: any) => {
     let skills = skillsFromJson;
@@ -35,7 +41,7 @@ function SkillsChart() {
     let i = 0;
     skills.forEach(function (item) {
       let filteredItem = {} as SkillItem;
-      filteredItem.description = item.description;
+      filteredItem.description = rename(item.description);
       filteredItem.median_salary = stringToNumber(item.median_salary);
       filteredItem.live_jobs = stringToNumber(item.live_jobs);
       //filteredItem.rank = stringToNumber(item.rank);
@@ -57,17 +63,43 @@ function SkillsChart() {
   };
 
   return (
-    <div style={{ width: '100%', height: '100%', overflow: 'hidden', padding: 0, margin: 0 }}>
-      
-      <button style={{cursor: "pointer"}} onClick={() => { setSelectedDate("Feb23")}}>Feb 23</button>
-      <button style={{cursor: "pointer"}} onClick={() => { setSelectedDate("Jan23")}}>Jan 23</button>
-      <button style={{cursor: "pointer"}} onClick={() => { setSelectedDate("clear")}}>Clear</button>
-      
-      
-      <ScatterChart className="scatter-chart" width={1200} height={570} margin={{ top: 0, right: 0, bottom: 0, left: 0 }}>
-        <XAxis dataKey="live_jobs" name="Live Jobs" unit="" stroke="lightgray" strokeWidth={0.3} tick={<CustomXAxisTick fontSize="11px" />} />
-        <YAxis dataKey="median_salary" name="Median Salary" unit="£" stroke="lightgray" strokeWidth={0.3} domain={[50000, 87000]} fontSize={12} />
-        <ZAxis dataKey="description" name="Description" />
+    <div style={{ height: '100%' }}>
+
+      <button style={{ cursor: "pointer" }} onClick={() => { setSelectedDate("Feb23") }}>Feb 23</button>
+      <button style={{ cursor: "pointer" }} onClick={() => { setSelectedDate("Jan23") }}>Jan 23</button>
+      <button style={{ cursor: "pointer" }} onClick={() => { setSelectedDate("clear") }}>Clear</button>
+
+
+      <ScatterChart
+        className="scatter-chart"
+        width={800}
+        height={570}
+        margin={{ top: 0, right: 0, bottom: 0, left: -40 }}
+        
+        >
+
+        <XAxis
+          dataKey="live_jobs"
+          name="Live Jobs"
+          unit=""
+          stroke="lightgray"
+          strokeWidth={0.3}
+          tick={<CustomXAxisTick fontSize="11px" />}
+        />
+        <YAxis
+          dataKey="median_salary"
+          name="Median Salary"
+          unit="£"
+          stroke="lightgray"
+          strokeWidth={0.3}
+          domain={[50000, 87000]}
+          // fontSize={12} 
+          tick={<CustomYAxisTick fontSize="11px" />}
+        />
+        <ZAxis
+          dataKey="description"
+          name="Description" />
+
         <CartesianGrid stroke="#cccccc" strokeDasharray="0.3 3" />
         <Tooltip cursor={{ strokeDasharray: '3 3' }} contentStyle={customTooltipStyle} />
         <Scatter name="My Skills" fill="#acd157" />

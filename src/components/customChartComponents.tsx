@@ -9,3 +9,14 @@ export const CustomXAxisTick = (props: any) => {
         </g>
     );
 };
+
+
+export const CustomYAxisTick = (props: any) => {
+    const { x, y, stroke, payload, fontSize } = props;
+
+    return (
+        <g transform={`translate(${x},${y})`}>
+            <text x={25} y={-15} dy={18} textAnchor="end" fill="lightgray" transform="rotate(-90)" style={{ fontSize }}>{payload.value} £</text>
+        </g>
+    );
+};
