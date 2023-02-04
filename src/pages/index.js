@@ -1,11 +1,11 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import SkillsTab from "../components/skillsTab"
+import SkillsChart from "../components/SkillsChart"
 
 const IndexPage = () => (
   <Layout>
-    <SkillsTab />
+    <SkillsChart />
   </Layout>
 )
 
